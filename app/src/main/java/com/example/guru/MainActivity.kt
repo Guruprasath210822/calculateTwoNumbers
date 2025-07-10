@@ -37,6 +37,10 @@ class MainActivity : AppCompatActivity() {
             if (binding.uiEtFirstNo.text?.isNotEmpty() == true && binding.uiEtSecNo.text?.isNotEmpty() == true){
                 val text = firstNumber.toString().toInt().minus(secondNumber.toString().toInt())
                 binding.uiEtAns.text = text.toString()
+
+
+
+                binding
             } else {
                 Toast.makeText(this,"pls enter valid number",Toast.LENGTH_SHORT).show()
 
